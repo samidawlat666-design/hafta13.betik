@@ -1,0 +1,52 @@
+isim=prompt("isim yaz");
+s=" ";
+      if(isim =="sami"){
+          for(let i=0;i<isim.length;i++){
+              s=s+isim[i];
+               alert(s);
+           }
+                        }        
+      else if (isim =="yanki")
+{
+            for( let i=0;i<isim.length;i++){
+                s=s+isim[i];
+                 alert(s);
+        
+    
+}}
+      else {
+            alert("hata");
+}
+
+
+a=["ali","mehmet","sami"];
+for (let i=0;i<a.length;i++){
+console.log(a[i]);
+    alert(i);
+
+
+
+
+
+isim=prompt("isim yaz");
+s=" ";
+      if(isim =="sami"){
+          for(let i=0;i<isim.length-1;i++){
+             
+               alert(isim[i]);
+           }
+                        }        
+      else if (isim =="yanki")
+{
+            for( let i=isim.length-1;i>=0;i--){
+                s=s+isim[i];
+                 alert(s);
+        
+    
+}}
+      else {
+            alert("hata");
+}
+
+
+abdul sami devlet
