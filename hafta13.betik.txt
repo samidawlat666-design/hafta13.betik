@@ -31,19 +31,20 @@ console.log(a[i]);
 isim=prompt("isim yaz");
 s=" ";
       if(isim =="sami"){
-          for(let i=0;i<isim.length-1;i++){
-             
+          for(let i=0;i<isim.length;i++){
+
                alert(isim[i]);
            }
                         }        
       else if (isim =="yanki")
 {
-            for( let i=isim.length-1;i>=0;i--){
-                s=s+isim[i];
-                 alert(s);
-        
-    
-}}
+
+            
+        for(let i=5;i>=0;i--){
+            alert(isim.substr(isim,i));
+            
+        }
+        }
       else {
             alert("hata");
 }
